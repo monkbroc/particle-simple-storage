@@ -51,4 +51,6 @@ int updateConfig(String arg) {
 }
 
 void loop() {
+    Serial.printlnf("gain=%d, limit=%d", config.gain, config.limit);
+    delay(1000);
 }
